@@ -25,6 +25,10 @@ changeBtn.addEventListener("click", function () {
 
     const codingoverFlow = document.getElementById("Codigniter");
     codingoverFlow.style.display = "none";
+
+    const laraHide = document.getElementById("Laravel-Hide")
+    laraHide.style.display = "none";
+
 })
 
 
@@ -104,6 +108,8 @@ laravelIN.addEventListener("click", () => {
     const codingHid = document.getElementById("Codigniter");
     codingHid.style.display = "none";
 
+    
+
 })
 
 
@@ -129,12 +135,31 @@ codingBlog.addEventListener("click", () => {
 
     const laraHidden = document.getElementById("Laravel-Hide")
     laraHidden.style.display = "none";
+    // const allContent = document.getElementById("all-container")
+    // allContent.style.display = "none"
 })
 
 
 
 
 
+const allContainer = document.getElementById("all-container")
+allContainer.addEventListener("click", function () {
 
+    const htmlCome = document.getElementById("Css-Hide")
+    htmlCome.style.display = "block";
+    const cssCome = document.getElementById("Html-Hide");
+    cssCome.style.display = "block";
+    const javaCome = document.getElementById("Java-Hide");
+    javaCome.style.display = "block";
+    const laraCome = document.getElementById("Laravel-Hide")
+    laraCome.style.display = "block";
+    const codeCome = document.getElementById("Codigniter")
+    codeCome.style.display = "block"
+    const homeHide = document.getElementById("work-container")
+    homeHide.style.display = "none";
+    // const allCome = document.getElementById("work-container")
+    // allCome.style.display = "block";
+})
 
 
